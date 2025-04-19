@@ -13,14 +13,14 @@ const Projects = () => {
       githubLink: "https://github.com/Rizon1326/E-Waste",
     },
     {
-      title: "Imbd Movie dataset sentiment analysis",
-      whatIDid: "Created a drag-and-drop task management system with real-time updates and team collaboration features.",
+      title: "IMDB Movie dataset sentiment analysis",
+      whatIDid: "Develop an application that can classify the sentiment of a movie review as positive or negative.  I have used Streamlit to make the application.",
       tags: ["Python", "TensorFlow", "Streamlit"],
       githubLink: "https://github.com/Rizon1326/Movie-Review-Sentiment-Analysis",
     },
     {
       title: "Eco_Life_AI_Project",
-      whatIDid: "Designed and developed a responsive portfolio website to showcase my work and skills.",
+      whatIDid: "AI-powered food recommendations, health management, budget optimization, and waste reduction, with real-time ChatBot assistance using a trained model  DeepSeek SDK and gemini.",
       whatHappened: "The website attracted potential clients and employers, leading to new opportunities.",
       whatILearned: "Improved my skills in responsive design, animations, and optimizing site performance.",
       tags: ["Python", "FastAPI", "React", "Express", "Deepseek SDK"],
