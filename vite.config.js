@@ -10,7 +10,7 @@ export default defineConfig({
     port: 5173,      // optional, can leave out if Render assigns $PORT
     allowedHosts: [
       'localhost',
-      'mehedi-portfolio1.onrender.com'
+      'mehrab-portfolio.onrender.com'
     ]
   }
 })
