@@ -11,14 +11,14 @@ const About = () => {
     education: <BookOpen className="text-blue-500" />,
     skills: <Code className="text-green-500" />,
     passion: <Brain className="text-purple-500" />,
-    work: <Cpu className="text-red-500" />
+    // work: <Cpu className="text-red-500" />
   };
   
   const infoContent = {
-    education: "Software Engineering student at Institute of Information Technology, University of Dhaka",
+    education: "Computer Science and Engineering Student, University of Dhaka",
     skills: "Experienced in Java, Python, JavaScript, React, Node.js, and Django",
     passion: "Passionate about AI research and development alongside software engineering",
-    work: "Currently interning at Brain Station 23, a leading software company in Bangladesh"
+    // work: "Currently interning at Brain Station 23, a leading software company in Bangladesh"
   };
 
   const education = [
@@ -113,7 +113,7 @@ const About = () => {
               <span>Education</span>
             </motion.button>
             
-            <motion.button
+            {/* <motion.button
               className="px-3 md:px-6 py-2 rounded-full flex items-center space-x-1 md:space-x-2 text-sm md:text-base whitespace-nowrap"
               variants={tabVariants}
               animate={activeTab === "experience" ? "active" : "inactive"}
@@ -123,7 +123,7 @@ const About = () => {
             >
               <Briefcase size={16} className="flex-shrink-0" />
               <span>Experience</span>
-            </motion.button>
+            </motion.button> */}
           </div>
         </div>
         
@@ -176,12 +176,10 @@ const About = () => {
               </motion.div>
               
               <p className="text-sm md:text-base text-gray-700 mb-3 md:mb-4">
-                As a student at the University of Dhaka's Institute of Information Technology, I'm currently working as an intern at Brain Station 23, one of Bangladesh's leading software development companies. Alongside my software engineering studies, I have a strong passion for AI research and development.
+              I'm a 7th-semester student at the Department of Computer Science and Engineering, University of Dhaka. I'm currently working on my undergraduate thesis focused on applying Large Language Models (LLMs) in healthcare. I have a strong passion for AI and its intersection with biology, and I'm deeply interested in exploring how intelligent systems can contribute to advancements in the healthcare domain.
               </p>
               
-              <p className="text-sm md:text-base text-gray-700">
-                When I'm not coding or exploring AI technologies, you can find me participating in hackathons and continuously learning to improve my skills in both software development and artificial intelligence.
-              </p>
+             
             </motion.div>
           )}
           

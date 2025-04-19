@@ -17,16 +17,13 @@ const Hero = () => {
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 sm:mb-4">
               <span className="text-gray-900">Hello, I'm</span>
-              <div className="text-primary mt-1 sm:mt-2">Khandakar Mehedi Hasan</div>
+              <div className="text-primary mt-1 sm:mt-2">Tahsin Ahmed</div>
             </h1>
             <h2 className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-3 sm:mb-6">
-              Undergrad Software Engineering Student
+              Undergrad Computer Science and Engineering Student
             </h2>
             <p className="text-gray-600 mb-6 sm:mb-8 text-base sm:text-lg">
-              I am a passionate software engineer with a keen interest in web
-              development, machine learning, and artificial intelligence. I love
-              to explore new technologies and create innovative solutions to
-              real-world problems.
+            I'm passionate about connecting AI, optimization, and low-level hardware systems to build efficient, intelligent solutions. I love tackling complex problems where software meets hardware, aiming to push performance and resource efficiency to the next level.
             </p>
             <div className="flex flex-wrap gap-3 sm:gap-4">
               <a
@@ -65,7 +62,7 @@ const Hero = () => {
                 }}
               >
                 <img
-                  src="/src/assets/BS1758 Photo.jpeg"
+                  src="/src/assets/tahsin.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                   onError={(e) => {

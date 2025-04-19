@@ -47,7 +47,7 @@ const Contact = () => {
     {
       icon: <Home size={20} />,
       title: "Address",
-      value: "Fazlul Haque Muslim Hall, Dokkhin Vaban- Room 5001, University of Dhaka, Bangladesh",
+      value: "Fazlul Haque Muslim Hall, Dokkhin Vaban- Room 4004, University of Dhaka, Bangladesh",
       color: "bg-yellow-100 text-yellow-600"
     }
   ];
@@ -55,17 +55,17 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: <Github size={20} />,
-      href: "https://github.com/Rizon1326",
+      href: "https://github.com/tahsin030602",
       hoverColor: "hover:bg-gray-800 hover:text-white"
     },
     {
       icon: <Linkedin size={20} />,
-      href: "https://www.linkedin.com/in/khandakar-mehedi-hasan-aa9688323/",
+      href: "https://www.linkedin.com/in/tahsin030602/",
       hoverColor: "hover:bg-blue-600 hover:text-white"
     },
     {
       icon: <Facebook size={20} />,
-      href: "https://www.facebook.com/mehedi.hasan.rizon.2024/",
+      href: "https://www.facebook.com/tahsin030602/",
       hoverColor: "hover:bg-sky-500 hover:text-white"
     }
   ];
@@ -175,7 +175,7 @@ const Contact = () => {
               <p className="text-gray-600 text-xs sm:text-sm">
                 You can reach me directly at{" "}
                 <a href="mailto:bsse1326@iit.du.ac.bd" className="text-blue-600 hover:underline">
-                  bsse1326@iit.du.ac.bd
+                  tahsin-2020015613@cs.du.ac.bd
                 </a>
               </p>
             </motion.div>

@@ -7,37 +7,19 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Waste Management System",
-      whatIDid: "Developed a web application for classifying and managing waste. It was a combined project. I have made a data set of 5000 images. Trainded a model using Tensorflow and Keras. I have vectorize the images and save the vectors in a database. Then i have classify the image by cosine similarity.",
-      tags: ["Python", "TensorFlow", "Streamlit"],
-      githubLink: "https://github.com/Rizon1326/E-Waste",
+      title: "Sentiment Analysis",
+      whatIDid:"I review and analysis data of 1000 rows for sentiment analysis",
+      tags: ["Python", "TensorFlow", "NLP-tools"],
+      githubLink: "https://www.kaggle.com/code/mhrizon/imdb-movie-reviwer/",
     },
     {
-      title: "IMDB Movie dataset sentiment analysis",
-      whatIDid: "Develop an application that can classify the sentiment of a movie review as positive or negative.  I have used Streamlit to make the application.",
-      tags: ["Python", "TensorFlow", "Streamlit"],
-      githubLink: "https://github.com/Rizon1326/Movie-Review-Sentiment-Analysis",
+      title: "CV Data screening",
+      whatIDid:"Using NLP tools I have reviewed and analysis data of 1000+ rows for CV screening",
+      tags: ["Python", "TensorFlow", "NLP-tools"],
+      githubLink: "https://www.kaggle.com/code/mhrizon/resume/",
     },
-    {
-      title: "Eco_Life_AI_Project",
-      whatIDid: "AI-powered food recommendations, health management, budget optimization, and waste reduction, with real-time ChatBot assistance using a trained model  DeepSeek SDK and gemini.",
-      whatHappened: "The website attracted potential clients and employers, leading to new opportunities.",
-      whatILearned: "Improved my skills in responsive design, animations, and optimizing site performance.",
-      tags: ["Python", "FastAPI", "React", "Express", "Deepseek SDK"],
-      githubLink: "https://github.com/Rizon1326/Eco_Life_AI_Project",
-    },
-    {
-      title: "Mini Chess AI",
-      whatIDid: "Minichess is a 6x5 chess game. This project features an AI opponent using Minimax with alpha-beta pruning and a user-friendly interface.",
-      tags: ["MongoDB", "Express", "React", "Node.js"],
-      githubLink: "https://github.com/Rizon1326/Mini_Chess_AI"
-    },
-    {
-      title: "Wumpus-World-AI",
-      whatIDid: "It is a 10x10 grid-based project where an agent uses AI techniques like logic, inference, probabilistic reasoning, and loop detection to navigate, collect gold, and achieve its goals.",
-      tags: ["MongoDB", "Express", "React", "Node.js"],
-      githubLink: "https://github.com/Rizon1326/Wumpus-World-AI"
-    }
+   
+   
     
   ];
   

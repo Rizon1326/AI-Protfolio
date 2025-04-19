@@ -14,6 +14,12 @@ const Skills = () => {
     "Machine Learning",
     "Streamlit",
     "Sktlearn",
+    "Spring Boot",
+    "Java",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Rust"
   ];
 
   const aiTheories = [
