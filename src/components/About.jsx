@@ -11,21 +11,20 @@ const About = () => {
     education: <BookOpen className="text-blue-500" />,
     skills: <Code className="text-green-500" />,
     passion: <Brain className="text-purple-500" />,
-    work: <Cpu className="text-red-500" />
+    // work: <Cpu className="text-red-500" />
   };
   
   const infoContent = {
-    education: "Software Engineering student at Institute of Information Technology, University of Dhaka",
-    skills: "Experienced in Java, Python, JavaScript, React, Node.js, and Django",
-    passion: "Passionate about AI research and development alongside software engineering",
-    work: "Currently interning at Brain Station 23, a leading software company in Bangladesh"
+    education: " University of Dhaka",
+    skills: "Experienced in MatLab, Python,AutoCAD ",
+    passion: "Passionate about AI research ",
   };
 
   const education = [
     {
-      degree: "Bachelor's in Software Engineering",
-      institution: "Institute of Information Technology, University of Dhaka",
-      year: "2020 - Present"
+      degree: "Bachelor's in Electrical and Electronic Engineering (EEE)",
+      institution: " University of Dhaka",
+      year: "2022 - Present"
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
@@ -74,10 +73,10 @@ const About = () => {
   };
 
   return (
-    <section id="about" className="section bg-white py-8 md:py-16">
+    <section id="about" className="section bg-white py-16">
       <div className="container mx-auto px-4">
         <motion.h2 
-          className="text-2xl md:text-3xl font-bold text-center mb-8 md:mb-12"
+          className="text-3xl font-bold text-center mb-12"
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -86,67 +85,65 @@ const About = () => {
           About Me
         </motion.h2>
         
-        {/* Responsive Tab Navigation */}
-        <div className="flex justify-center mb-6 md:mb-8 overflow-x-auto">
-          <div className="inline-flex bg-gray-100 rounded-full p-1 flex-wrap md:flex-nowrap">
+        <div className="flex justify-center mb-8">
+          <div className="inline-flex bg-gray-100 rounded-full p-1">
             <motion.button
-              className="px-3 md:px-6 py-2 rounded-full flex items-center space-x-1 md:space-x-2 text-sm md:text-base whitespace-nowrap"
+              className="px-6 py-2 rounded-full flex items-center space-x-2"
               variants={tabVariants}
               animate={activeTab === "about" ? "active" : "inactive"}
               onClick={() => setActiveTab("about")}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <MessageSquare size={16} className="flex-shrink-0" />
+              <MessageSquare size={18} />
               <span>Who I Am</span>
             </motion.button>
             
             <motion.button
-              className="px-3 md:px-6 py-2 rounded-full flex items-center space-x-1 md:space-x-2 text-sm md:text-base whitespace-nowrap"
+              className="px-6 py-2 rounded-full flex items-center space-x-2"
               variants={tabVariants}
               animate={activeTab === "education" ? "active" : "inactive"}
               onClick={() => setActiveTab("education")}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <GraduationCap size={16} className="flex-shrink-0" />
+              <GraduationCap size={18} />
               <span>Education</span>
             </motion.button>
             
-            <motion.button
-              className="px-3 md:px-6 py-2 rounded-full flex items-center space-x-1 md:space-x-2 text-sm md:text-base whitespace-nowrap"
+            {/* <motion.button
+              className="px-6 py-2 rounded-full flex items-center space-x-2"
               variants={tabVariants}
               animate={activeTab === "experience" ? "active" : "inactive"}
               onClick={() => setActiveTab("experience")}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <Briefcase size={16} className="flex-shrink-0" />
+              <Briefcase size={18} />
               <span>Experience</span>
-            </motion.button>
+            </motion.button> */}
           </div>
         </div>
         
-        <div className="grid md:grid-cols-1 gap-6 md:gap-10">
+        <div className="grid md:grid-cols-1 gap-10">
           {activeTab === "about" && (
             <motion.div
               initial={{ opacity: 0, x: -30 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 30 }}
               transition={{ duration: 0.5 }}
-              className="p-4 md:p-6 bg-white rounded-lg shadow-lg"
+              className="p-6 bg-white rounded-lg shadow-lg"
             >
-              <h3 className="text-xl md:text-2xl font-semibold mb-4 md:mb-6 flex items-center">
-                <MessageSquare className="mr-2 text-blue-600" size={20} />
+              <h3 className="text-2xl font-semibold mb-6 flex items-center">
+                <MessageSquare className="mr-2 text-blue-600" size={24} />
                 Who I Am
               </h3>
               
-              {/* Responsive Info Cards Grid */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-2 md:gap-3 mb-4 md:mb-6">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
                 {Object.keys(infoIcons).map((key) => (
                   <motion.div
                     key={key}
-                    className={`p-2 md:p-3 rounded-lg cursor-pointer flex flex-col items-center text-center ${
+                    className={`p-3 rounded-lg cursor-pointer flex flex-col items-center text-center ${
                       activeInfo === key 
                         ? "bg-blue-50 border-2 border-blue-300" 
                         : "bg-gray-50 border border-gray-200"
@@ -155,33 +152,30 @@ const About = () => {
                     whileTap={{ scale: 0.97 }}
                     onClick={() => setActiveInfo(key)}
                   >
-                    <div className="text-lg md:text-xl mb-1 md:mb-2">{infoIcons[key]}</div>
-                    <div className="text-xs md:text-sm font-medium capitalize">{key}</div>
+                    <div className="text-xl mb-2">{infoIcons[key]}</div>
+                    <div className="text-sm font-medium capitalize">{key}</div>
                   </motion.div>
                 ))}
               </div>
               
-              {/* Responsive Info Content */}
               <motion.div 
-                className="bg-blue-50 p-3 md:p-4 rounded-lg mb-4 md:mb-6 min-h-16 md:min-h-20 flex items-center"
+                className="bg-blue-50 p-4 rounded-lg mb-6 min-h-20 flex items-center"
                 key={activeInfo}
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}
               >
-                <div className="mr-2 md:mr-3 text-blue-500 text-xl md:text-2xl flex-shrink-0">
+                <div className="mr-3 text-blue-500 text-2xl">
                   {infoIcons[activeInfo]}
                 </div>
-                <p className="text-gray-800 text-sm md:text-base">{infoContent[activeInfo]}</p>
+                <p className="text-gray-800">{infoContent[activeInfo]}</p>
               </motion.div>
               
-              <p className="text-sm md:text-base text-gray-700 mb-3 md:mb-4">
-                As a student at the University of Dhaka's Institute of Information Technology, I'm currently working as an intern at Brain Station 23, one of Bangladesh's leading software development companies. Alongside my software engineering studies, I have a strong passion for AI research and development.
-              </p>
+              <p className="text-gray-700 mb-4">
+               I am passionate about AI research and learning with deep interest in machine learning and artificial intelligence. I enjoy exploring new technologies and applying them to solve real-world problems. I am also a quick learner and always eager to take on new challenges.
+               </p>
               
-              <p className="text-sm md:text-base text-gray-700">
-                When I'm not coding or exploring AI technologies, you can find me participating in hackathons and continuously learning to improve my skills in both software development and artificial intelligence.
-              </p>
+             
             </motion.div>
           )}
           
@@ -191,12 +185,12 @@ const About = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -30 }}
               transition={{ duration: 0.5 }}
-              className="space-y-4 md:space-y-6"
+              className="space-y-6"
             >
               {education.map((item, i) => (
                 <motion.div 
                   key={i}
-                  className="bg-white p-4 md:p-5 rounded-lg border-l-4 border-blue-500 shadow-md hover:shadow-lg transition-shadow duration-300"
+                  className="bg-white p-5 rounded-lg border-l-4 border-blue-500 shadow-md hover:shadow-lg transition-shadow duration-300"
                   custom={i}
                   variants={fadeInUp}
                   initial="hidden"
@@ -205,14 +199,14 @@ const About = () => {
                   whileHover={{ y: -5, transition: { duration: 0.2 } }}
                 >
                   <div className="flex items-start">
-                    <div className="bg-blue-100 p-2 md:p-3 rounded-full mr-3 md:mr-4 flex-shrink-0">
-                      <GraduationCap className="text-blue-600 w-4 h-4 md:w-5 md:h-5" />
+                    <div className="bg-blue-100 p-3 rounded-full mr-4">
+                      <GraduationCap className="text-blue-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-base md:text-lg">{item.degree}</h4>
-                      <p className="text-gray-600 text-sm md:text-base">{item.institution}</p>
-                      <p className="text-gray-500 text-xs md:text-sm flex items-center mt-1 md:mt-2">
-                        <Star size={14} className="mr-1 text-yellow-500" />
+                      <h4 className="font-semibold text-lg">{item.degree}</h4>
+                      <p className="text-gray-600">{item.institution}</p>
+                      <p className="text-gray-500 text-sm flex items-center mt-2">
+                        <Star size={16} className="mr-1 text-yellow-500" />
                         {item.year}
                       </p>
                     </div>
@@ -228,12 +222,12 @@ const About = () => {
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -30 }}
               transition={{ duration: 0.5 }}
-              className="space-y-4 md:space-y-6"
+              className="space-y-6"
             >
               {experience.map((item, i) => (
                 <motion.div 
                   key={i}
-                  className="bg-white p-4 md:p-5 rounded-lg border-l-4 border-green-500 shadow-md hover:shadow-lg transition-shadow duration-300"
+                  className="bg-white p-5 rounded-lg border-l-4 border-green-500 shadow-md hover:shadow-lg transition-shadow duration-300"
                   custom={i}
                   variants={fadeInUp}
                   initial="hidden"
@@ -242,17 +236,17 @@ const About = () => {
                   whileHover={{ y: -5, transition: { duration: 0.2 } }}
                 >
                   <div className="flex items-start">
-                    <div className="bg-green-100 p-2 md:p-3 rounded-full mr-3 md:mr-4 flex-shrink-0">
-                      <Briefcase className="text-green-600 w-4 h-4 md:w-5 md:h-5" />
+                    <div className="bg-green-100 p-3 rounded-full mr-4">
+                      <Briefcase className="text-green-600" />
                     </div>
                     <div>
-                      <h4 className="font-semibold text-base md:text-lg">{item.position}</h4>
-                      <p className="text-gray-600 text-sm md:text-base">{item.company}</p>
-                      <p className="text-gray-500 text-xs md:text-sm flex items-center mt-1 md:mt-2">
-                        <Star size={14} className="mr-1 text-yellow-500" />
+                      <h4 className="font-semibold text-lg">{item.position}</h4>
+                      <p className="text-gray-600">{item.company}</p>
+                      <p className="text-gray-500 text-sm flex items-center mt-2">
+                        <Star size={16} className="mr-1 text-yellow-500" />
                         {item.period}
                       </p>
-                      <p className="text-gray-700 text-sm md:text-base mt-1 md:mt-2">{item.description}</p>
+                      <p className="text-gray-700 mt-2">{item.description}</p>
                     </div>
                   </div>
                 </motion.div>

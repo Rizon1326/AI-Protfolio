@@ -60,7 +60,7 @@ const Footer = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <p className="text-xs sm:text-sm">&copy; {currentYear} Khandakar Mehedi Hasan. All rights reserved.</p>
+          <p className="text-xs sm:text-sm">&copy; {currentYear} Khandakar Mehrab Hossain. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

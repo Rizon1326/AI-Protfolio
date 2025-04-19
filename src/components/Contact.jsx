@@ -29,19 +29,19 @@ const Contact = () => {
     {
       icon: <Phone size={20} />,
       title: "Phone",
-      value: "+880 1314824297",
+      value: "+880 749649672",
       color: "bg-blue-100 text-blue-600"
     },
     {
       icon: <Mail size={20} />,
       title: "Email",
-      value: "bsse1326@iit.du.ac.bd",
+      value: "khandakarmehrab-2020915830@eee.du.ac.bd",
       color: "bg-green-100 text-green-600"
     },
     {
       icon: <MapPin size={20} />,
       title: "Location",
-      value: "Institute of Information Technology, University of Dhaka, Bangladesh",
+      value: "Electrical and Electronics Engineering, University of Dhaka, Bangladesh",
       color: "bg-red-100 text-red-600"
     },
     {
@@ -53,19 +53,19 @@ const Contact = () => {
   ];
 
   const socialLinks = [
-    {
-      icon: <Github size={20} />,
-      href: "https://github.com/Rizon1326",
-      hoverColor: "hover:bg-gray-800 hover:text-white"
-    },
+    // {
+    //   icon: <Github size={20} />,
+    //   href: "https://github.com/Rizon1326",
+    //   hoverColor: "hover:bg-gray-800 hover:text-white"
+    // },
     {
       icon: <Linkedin size={20} />,
-      href: "https://www.linkedin.com/in/khandakar-mehedi-hasan-aa9688323/",
+      href: "https://www.linkedin.com/in/mehrab-rishad-a89274279?",
       hoverColor: "hover:bg-blue-600 hover:text-white"
     },
     {
       icon: <Facebook size={20} />,
-      href: "https://www.facebook.com/mehedi.hasan.rizon.2024/",
+      href: "https://www.facebook.com/share/16RSXBtvSp/",
       hoverColor: "hover:bg-sky-500 hover:text-white"
     }
   ];
@@ -150,18 +150,18 @@ const Contact = () => {
             >
               <h4 className="font-medium text-blue-800 mb-2 text-sm sm:text-base">Currently Available For</h4>
               <ul className="space-y-1 sm:space-y-2 text-blue-700 text-sm sm:text-base">
-                <li className="flex items-center gap-2">
+                {/* <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
                   <span>Internship Opportunities</span>
-                </li>
+                </li> */}
                 <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
                   <span>Collaborative AI Research Projects</span>
                 </li>
-                <li className="flex items-center gap-2">
+                {/* <li className="flex items-center gap-2">
                   <div className="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
                   <span>Software Development Work</span>
-                </li>
+                </li> */}
               </ul>
             </motion.div>
             
@@ -174,8 +174,8 @@ const Contact = () => {
             >
               <p className="text-gray-600 text-xs sm:text-sm">
                 You can reach me directly at{" "}
-                <a href="mailto:bsse1326@iit.du.ac.bd" className="text-blue-600 hover:underline">
-                  bsse1326@iit.du.ac.bd
+                <a href="mailto:khandakarmehrab-2020915830@eee.du.ac.bd" className="text-blue-600 hover:underline">
+                khandakarmehrab-2020915830@eee.du.ac.bd
                 </a>
               </p>
             </motion.div>

@@ -15,15 +15,12 @@ const Skills = () => {
   ];
 
   const aiTheories = [
-    "Propositional Logic",
-    "Alpha-Beta Pruning",
-    "Min-Max Algorithm",
-    "Heuristic Search",
-    "Constraint Satisfaction Problems (CSP)",
-    "Bayesian Networks",
-    "Knowledge Representation",
-    "A* Search Algorithm",
-    "Hidden Markov Models (HMM)",
+    "Random Forest",
+    "Decision Trees",
+    "K-Nearest Neighbors (KNN)",
+    "Naive Bayes",
+    "Linear Regression",
+    "Logistic Regression",
     "Support Vector Machines (SVM)",
     "Supprt vector classification",
     "Cosine similarity",
