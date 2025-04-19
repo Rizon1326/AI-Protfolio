@@ -5,13 +5,10 @@ const Skills = () => {
     "Natural Language Processing",
     "Computer Vision",
     "Python",
-    "Django",
-    "FastAPI",
     "Pandas",
     "NumPy",
     "TensorFlow",
-    "PyTorch",
-    "Machine Learning"
+    "PyTorch"
   ];
 
   const aiTheories = [
