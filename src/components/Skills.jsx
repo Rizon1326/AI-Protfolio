@@ -11,7 +11,9 @@ const Skills = () => {
     "NumPy",
     "TensorFlow",
     "PyTorch",
-    "Machine Learning"
+    "Machine Learning",
+    "Streamlit",
+    "Sktlearn",
   ];
 
   const aiTheories = [
@@ -28,6 +30,11 @@ const Skills = () => {
     "Supprt vector classification",
     "Cosine similarity",
     "Embedding",
+    "Random Forest",
+    "Decision Trees",
+    "Linear Regression",
+    "K-Nearest Neighbors (KNN)",
+
   ];
 
   const container = {
