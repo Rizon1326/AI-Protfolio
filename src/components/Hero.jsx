@@ -65,7 +65,7 @@ const Hero = () => {
                 }}
               >
                 <img
-                  src="/src/assets/rafid_photo.jpg"
+                  src="images/rafid_photo.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                   onError={(e) => {
