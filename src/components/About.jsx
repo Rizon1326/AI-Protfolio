@@ -25,23 +25,23 @@ const About = () => {
     {
       degree: "Bachelor's in Software Engineering",
       institution: "Institute of Information Technology, University of Dhaka",
-      year: "2020 - Present"
+      year: "2021 - Present"
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      institution: "Govt. Ananada Mohan College. Mymensingh",
+      institution: "Rangpur Govt. College, Rangpur",
       year: "2018 - 2020"
     },
     {
       degree: "Secondary School Certificate (SSC)",
-      institution: "Mymensingh Zilla School. Mymensingh",
+      institution: "Police Lines School & College, Rangpur",
       year: "2016 - 2018"
     }
   ];
 
   const experience = [
     {
-      position: "Intern",
+      position: "Software Engineer Intern",
       company: "BRAIN Station 23",
       period: "Present",
       description: "Working as an intern at BRAIN Station 23, focusing on software development projects and gaining hands-on experience in industry-standard practices."
