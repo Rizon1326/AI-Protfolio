@@ -7,37 +7,41 @@ import ProjectCard from './ProjectCard';
 const Projects = () => {
   const projects = [
     {
-      title: "E-Waste Management System",
-      whatIDid: "Developed a web application for classifying and managing waste. It was a combined project. I have made a data set of 5000 images. Trainded a model using Tensorflow and Keras. I have vectorize the images and save the vectors in a database. Then i have classify the image by cosine similarity.",
-      tags: ["Python", "TensorFlow", "Streamlit"],
-      githubLink: "https://github.com/Rizon1326/E-Waste",
+      title: "Fake News Detection using Machine Learning",
+      whatIDid: "Built a fake news detection system that classifies news articles as real or fake. Utilized machine learning techniques for classification and implemented a Streamlit web app for interactive usage.",
+      tags: ["Python", "Scikit-learn", "Pandas", "Streamlit", "NLP"],
+      githubLink: "https://github.com/Rafid13iit/fakeNewsDetection_AI_Project-3",
     },
     {
-      title: "IMDB Movie dataset sentiment analysis",
-      whatIDid: "Develop an application that can classify the sentiment of a movie review as positive or negative.  I have used Streamlit to make the application.",
-      tags: ["Python", "TensorFlow", "Streamlit"],
-      githubLink: "https://github.com/Rizon1326/Movie-Review-Sentiment-Analysis",
+      title: "8-Puzzle Solver using Search Algorithms",
+      whatIDid: "Developed a solver for the classic 8-puzzle problem using AI search techniques like A*, BFS, and DFS. The solution visualizes the steps from the initial to goal state.",
+      tags: ["Python", "AI", "A*", "Search Algorithms"],
+      githubLink: "https://github.com/Rafid13iit/8-PuzzleSolver_AI_Project-0",
     },
     {
-      title: "Eco_Life_AI_Project",
-      whatIDid: "AI-powered food recommendations, health management, budget optimization, and waste reduction, with real-time ChatBot assistance using a trained model  DeepSeek SDK and gemini.",
-      whatHappened: "The website attracted potential clients and employers, leading to new opportunities.",
-      whatILearned: "Improved my skills in responsive design, animations, and optimizing site performance.",
-      tags: ["Python", "FastAPI", "React", "Express", "Deepseek SDK"],
-      githubLink: "https://github.com/Rizon1326/Eco_Life_AI_Project",
+      title: "Mini Chess Game with AI Opponent",
+      whatIDid: "Built a simplified version of chess where a human can play against an AI. The AI uses the Minimax algorithm with Alpha-Beta pruning to make intelligent decisions.",
+      tags: ["Python", "Minimax", "Alpha-Beta Pruning", "Game AI"],
+      githubLink: "https://github.com/Rafid13iit/miniChess_AI_Project-1",
     },
     {
-      title: "Mini Chess AI",
-      whatIDid: "Minichess is a 6x5 chess game. This project features an AI opponent using Minimax with alpha-beta pruning and a user-friendly interface.",
-      tags: ["MongoDB", "Express", "React", "Node.js"],
-      githubLink: "https://github.com/Rizon1326/Mini_Chess_AI"
+      title: "Wumpus World Intelligent Agent",
+      whatIDid: "Implemented a logic-based intelligent agent to navigate the Wumpus World. The agent uses propositional logic and inference to make safe moves and locate the gold.",
+      tags: ["Python", "Propositional Logic", "AI Agent", "Knowledge Base"],
+      githubLink: "https://github.com/Rafid13iit/WumpusWorld_AI_Project-2",
     },
     {
-      title: "Wumpus-World-AI",
-      whatIDid: "It is a 10x10 grid-based project where an agent uses AI techniques like logic, inference, probabilistic reasoning, and loop detection to navigate, collect gold, and achieve its goals.",
-      tags: ["MongoDB", "Express", "React", "Node.js"],
-      githubLink: "https://github.com/Rizon1326/Wumpus-World-AI"
-    }
+      title: "BitFest 2025 Hackathon Project – KUET Final",
+      whatIDid: "Participated in BitFest Hackathon 2025 finals at KUET. Worked on an innovative tech solution under time constraints, focusing on real-world impact and AI integration.",
+      tags: ["Hackathon", "Team Project", "AI", "Innovation"],
+      githubLink: "https://github.com/Rafid13iit/BitFest_Hackathon_2025_Kuet_Final",
+    },
+    {
+      title: "Urban Heat Island Mitigation – AI for Change Hackathon",
+      whatIDid: "Developed an AI-powered solution to identify and mitigate urban heat islands using geospatial data, real-time monitoring, and green infrastructure recommendations.",
+      tags: ["Hackathon", "AI", "Climate Tech", "Geospatial Analysis"],
+      githubLink: "https://github.com/Rafid13iit/AI-for-Change-Hackathon",
+    }                    
     
   ];
   

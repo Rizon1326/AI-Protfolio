@@ -17,7 +17,7 @@ const Hero = () => {
           >
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-2 sm:mb-4">
               <span className="text-gray-900">Hello, I'm</span>
-              <div className="text-primary mt-1 sm:mt-2">Khandakar Mehedi Hasan</div>
+              <div className="text-primary mt-1 sm:mt-2">Ibne Bin Rafid</div>
             </h1>
             <h2 className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-3 sm:mb-6">
               Undergrad Software Engineering Student
@@ -65,7 +65,7 @@ const Hero = () => {
                 }}
               >
                 <img
-                  src="/src/assets/BS1758 Photo.jpeg"
+                  src="/src/assets/rafid_photo.jpg"
                   alt="Profile"
                   className="w-full h-full object-cover"
                   onError={(e) => {

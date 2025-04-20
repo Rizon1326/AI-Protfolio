@@ -29,13 +29,13 @@ const Contact = () => {
     {
       icon: <Phone size={20} />,
       title: "Phone",
-      value: "+880 1314824297",
+      value: "+880 1521784660",
       color: "bg-blue-100 text-blue-600"
     },
     {
       icon: <Mail size={20} />,
       title: "Email",
-      value: "bsse1326@iit.du.ac.bd",
+      value: "bsse1330@iit.du.ac.bd",
       color: "bg-green-100 text-green-600"
     },
     {
@@ -47,7 +47,7 @@ const Contact = () => {
     {
       icon: <Home size={20} />,
       title: "Address",
-      value: "Fazlul Haque Muslim Hall, Dokkhin Vaban- Room 5001, University of Dhaka, Bangladesh",
+      value: "Amar Ekushey Hall, University of Dhaka, Dhaka, Bangladesh",
       color: "bg-yellow-100 text-yellow-600"
     }
   ];
@@ -55,17 +55,17 @@ const Contact = () => {
   const socialLinks = [
     {
       icon: <Github size={20} />,
-      href: "https://github.com/Rizon1326",
+      href: "https://github.com/Rafid13iit",
       hoverColor: "hover:bg-gray-800 hover:text-white"
     },
     {
       icon: <Linkedin size={20} />,
-      href: "https://www.linkedin.com/in/khandakar-mehedi-hasan-aa9688323/",
+      href: "https://www.linkedin.com/in/rafid-iit-du/",
       hoverColor: "hover:bg-blue-600 hover:text-white"
     },
     {
       icon: <Facebook size={20} />,
-      href: "https://www.facebook.com/mehedi.hasan.rizon.2024/",
+      href: "https://www.facebook.com/Rafid.BSSE13",
       hoverColor: "hover:bg-sky-500 hover:text-white"
     }
   ];
@@ -175,7 +175,7 @@ const Contact = () => {
               <p className="text-gray-600 text-xs sm:text-sm">
                 You can reach me directly at{" "}
                 <a href="mailto:bsse1326@iit.du.ac.bd" className="text-blue-600 hover:underline">
-                  bsse1326@iit.du.ac.bd
+                  bsse1330@iit.du.ac.bd
                 </a>
               </p>
             </motion.div>
